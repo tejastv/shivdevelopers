@@ -244,6 +244,7 @@ font-size: 15px;font-weight: 500;}
   height: 100%;
   color: #000;
   z-index: 99;
+  background: #00000042;
 }
 #main-slider .slider-inner h2 {
   margin-top: 50%;
@@ -590,8 +591,12 @@ margin: 0 8px;
   padding: 0 20px 20px;
   color: #fff;
   position: relative;
-  top: 60px;
+  top: 50%;
   display: none;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .carousel-content h2{
 font-size:44px;
@@ -601,7 +606,7 @@ color:#fff;
 }
 .carousel-content p{
 font-size: 19px;
-color: #B9B9B9;}
+color: #fff;}
 .imgs img{
   border: 1px solid #DEDEDE;
   padding: 3px;
@@ -809,7 +814,7 @@ height:35px;
 }
 /*Contact*/
  .contact-info{
- padding:60px 0;
+  padding: 60px 0 15px 15px;
  }
 .contact-info address {
 margin-bottom: 20px;
